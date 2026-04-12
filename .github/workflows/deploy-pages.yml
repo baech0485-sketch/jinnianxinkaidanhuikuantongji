@@ -20,8 +20,7 @@ jobs:
       - name: 准备部署产物
         run: |
           mkdir -p dist
-          cp index.html dist/index.html
-          cp -r daily-dashboard dist/daily-dashboard
+          cp -r daily-dashboard/* dist/
           touch dist/.nojekyll
 
       - name: 发布到 gh-pages 分支
