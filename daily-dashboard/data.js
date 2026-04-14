@@ -6,82 +6,82 @@
 window.dashboardData = {
   "meta": {
     "title": "今年新开单与去年遗留店铺合并抽点回款看板",
-    "dateRange": "2026-03-01 至 2026-04-12",
+    "dateRange": "2026-03-01 至 2026-04-13",
     "sourceFiles": [
       "2026年3月开单店铺每日抽点与回款累计统计.xlsx",
       "去年遗留店铺自2026年3月起每日抽点与回款统计.xlsx"
     ],
     "exportTimes": [
-      "2026/4/13 09:16:15",
-      "2026/4/13 09:16:27"
+      "2026/4/14 09:34:56",
+      "2026/4/14 09:35:14"
     ]
   },
   "summary": {
-    "totalOpenStores": 3105,
-    "latestStoreBase": 3105,
-    "totalReportDays": 43,
-    "totalDrawStoreCount": 13084,
-    "totalRepayment": 107283.69,
-    "avgDailyDrawStores": 304.28,
-    "avgDailyRepayment": 2494.97,
-    "medianDailyDrawStores": 313.0,
-    "medianDailyRepayment": 2537.47,
-    "activeDrawDays": 43,
-    "activeRepaymentDays": 43,
+    "totalOpenStores": 3116,
+    "latestStoreBase": 3116,
+    "totalReportDays": 44,
+    "totalDrawStoreCount": 13501,
+    "totalRepayment": 110870.46,
+    "avgDailyDrawStores": 306.84,
+    "avgDailyRepayment": 2519.78,
+    "medianDailyDrawStores": 313.5,
+    "medianDailyRepayment": 2542.77,
+    "activeDrawDays": 44,
+    "activeRepaymentDays": 44,
     "first7DrawAvg": 247.57,
-    "last7DrawAvg": 334.14,
-    "drawGrowthPct": 34.97,
+    "last7DrawAvg": 344.57,
+    "drawGrowthPct": 39.18,
     "first7RepaymentAvg": 2241.01,
-    "last7RepaymentAvg": 2441.14,
-    "repaymentGrowthPct": 8.93,
+    "last7RepaymentAvg": 2566.69,
+    "repaymentGrowthPct": 14.53,
     "peakDrawDate": "2026-04-11",
     "peakDrawLabel": "04/11",
     "peakDrawValue": 434,
-    "peakRepaymentDate": "2026-04-11",
-    "peakRepaymentLabel": "04/11",
-    "peakRepaymentValue": 3486.92,
-    "mtAmountTotal": 78336.63,
-    "elmAmountTotal": 28947.06,
-    "mtDrawStoreTotal": 9117,
-    "elmDrawStoreTotal": 3967,
-    "mtAmountSharePct": 73.02,
-    "currentOpenStores": 527,
+    "peakRepaymentDate": "2026-04-12",
+    "peakRepaymentLabel": "04/12",
+    "peakRepaymentValue": 3615.55,
+    "mtAmountTotal": 80976.59,
+    "elmAmountTotal": 29893.87,
+    "mtDrawStoreTotal": 9396,
+    "elmDrawStoreTotal": 4105,
+    "mtAmountSharePct": 73.04,
+    "currentOpenStores": 538,
     "legacyOpenStores": 2578
   },
   "headlineCards": [
     {
       "label": "总店铺基数",
-      "value": "3,105",
-      "note": "去年遗留 2,578 + 今年新开 527",
+      "value": "3,116",
+      "note": "去年遗留 2,578 + 今年新开 538",
       "tone": "accent"
     },
     {
       "label": "总累计抽点次数",
-      "value": "13,084",
-      "note": "今年新开 4,014 / 去年遗留 9,070",
+      "value": "13,501",
+      "note": "今年新开 4,256 / 去年遗留 9,245",
       "tone": "blue"
     },
     {
       "label": "总累计回款金额",
-      "value": "¥107,283.69",
-      "note": "日均 ¥2,494.97",
+      "value": "¥110,870.46",
+      "note": "日均 ¥2,519.78",
       "tone": "good"
     },
     {
       "label": "今年新开累计回款",
-      "value": "¥27,830.09",
-      "note": "近7日日均 ¥1,137.46",
+      "value": "¥29,754.99",
+      "note": "近7日日均 ¥1,248.99",
       "tone": "blue"
     },
     {
       "label": "去年遗留累计回款",
-      "value": "¥79,453.60",
-      "note": "近7日日均 ¥1,303.68",
+      "value": "¥81,115.47",
+      "note": "近7日日均 ¥1,317.70",
       "tone": "accent"
     },
     {
       "label": "遗留回款贡献占比",
-      "value": "74.1%",
+      "value": "73.2%",
       "note": "当前总回款仍以去年遗留店铺为主",
       "tone": "gold"
     }
@@ -90,7 +90,7 @@ window.dashboardData = {
     {
       "key": "dailyDrawStores",
       "title": "每日抽点店铺数对比",
-      "subtitle": "同一日期对比今年新开单、去年遗留与总数据走势。图表已排除 2026-04-12，避免缺少美团数据导致失真。",
+      "subtitle": "同一日期对比今年新开单、去年遗留与总数据走势。图表已排除 2026-04-13，避免缺少美团数据导致失真。",
       "kind": "count",
       "peak": {
         "date": "2026-04-11",
@@ -102,10 +102,10 @@ window.dashboardData = {
           "dataset": "total",
           "label": "总数据",
           "color": "#1f2430",
-          "totalValue": 12945.0,
-          "averageValue": 308.21,
-          "last7Average": 360.29,
-          "latestValue": 434.0,
+          "totalValue": 13363.0,
+          "averageValue": 310.77,
+          "last7Average": 374.0,
+          "latestValue": 418.0,
           "peak": {
             "date": "2026-04-11",
             "label": "04/11",
@@ -321,6 +321,11 @@ window.dashboardData = {
               "date": "2026-04-11",
               "label": "04/11",
               "value": 434.0
+            },
+            {
+              "date": "2026-04-12",
+              "label": "04/12",
+              "value": 418.0
             }
           ]
         },
@@ -328,10 +333,10 @@ window.dashboardData = {
           "dataset": "current",
           "label": "今年新开单",
           "color": "#3a6fdd",
-          "totalValue": 3924.0,
-          "averageValue": 93.43,
-          "last7Average": 182.14,
-          "latestValue": 245.0,
+          "totalValue": 4168.0,
+          "averageValue": 96.93,
+          "last7Average": 196.29,
+          "latestValue": 244.0,
           "peak": {
             "date": "2026-04-11",
             "label": "04/11",
@@ -547,6 +552,11 @@ window.dashboardData = {
               "date": "2026-04-11",
               "label": "04/11",
               "value": 245.0
+            },
+            {
+              "date": "2026-04-12",
+              "label": "04/12",
+              "value": 244.0
             }
           ]
         },
@@ -554,10 +564,10 @@ window.dashboardData = {
           "dataset": "legacy",
           "label": "去年遗留",
           "color": "#c47d1e",
-          "totalValue": 9021.0,
-          "averageValue": 214.79,
-          "last7Average": 178.14,
-          "latestValue": 189.0,
+          "totalValue": 9195.0,
+          "averageValue": 213.84,
+          "last7Average": 177.71,
+          "latestValue": 174.0,
           "peak": {
             "date": "2026-03-07",
             "label": "03/07",
@@ -773,6 +783,11 @@ window.dashboardData = {
               "date": "2026-04-11",
               "label": "04/11",
               "value": 189.0
+            },
+            {
+              "date": "2026-04-12",
+              "label": "04/12",
+              "value": 174.0
             }
           ]
         }
@@ -781,26 +796,26 @@ window.dashboardData = {
     {
       "key": "dailyRepayment",
       "title": "每日回款金额对比",
-      "subtitle": "同一日期对比今年新开单、去年遗留与总数据回款金额。图表已排除 2026-04-12，避免缺少美团数据导致失真。",
+      "subtitle": "同一日期对比今年新开单、去年遗留与总数据回款金额。图表已排除 2026-04-13，避免缺少美团数据导致失真。",
       "kind": "money",
       "peak": {
-        "date": "2026-04-11",
-        "label": "04/11",
-        "value": 3486.92
+        "date": "2026-04-12",
+        "label": "04/12",
+        "value": 3615.55
       },
       "lines": [
         {
           "dataset": "total",
           "label": "总数据",
           "color": "#1f2430",
-          "totalValue": 106498.15,
-          "averageValue": 2535.67,
-          "last7Average": 2768.55,
-          "latestValue": 3486.92,
+          "totalValue": 110133.35,
+          "averageValue": 2561.24,
+          "last7Average": 2848.23,
+          "latestValue": 3615.55,
           "peak": {
-            "date": "2026-04-11",
-            "label": "04/11",
-            "value": 3486.92
+            "date": "2026-04-12",
+            "label": "04/12",
+            "value": 3615.55
           },
           "series": [
             {
@@ -1011,7 +1026,12 @@ window.dashboardData = {
             {
               "date": "2026-04-11",
               "label": "04/11",
-              "value": 3486.92
+              "value": 3506.57
+            },
+            {
+              "date": "2026-04-12",
+              "label": "04/12",
+              "value": 3615.55
             }
           ]
         },
@@ -1019,14 +1039,14 @@ window.dashboardData = {
           "dataset": "current",
           "label": "今年新开单",
           "color": "#3a6fdd",
-          "totalValue": 27398.87,
-          "averageValue": 652.35,
-          "last7Average": 1244.06,
-          "latestValue": 1734.15,
+          "totalValue": 29334.31,
+          "averageValue": 682.19,
+          "last7Average": 1352.35,
+          "latestValue": 1915.79,
           "peak": {
-            "date": "2026-04-11",
-            "label": "04/11",
-            "value": 1734.15
+            "date": "2026-04-12",
+            "label": "04/12",
+            "value": 1915.79
           },
           "series": [
             {
@@ -1237,7 +1257,12 @@ window.dashboardData = {
             {
               "date": "2026-04-11",
               "label": "04/11",
-              "value": 1734.15
+              "value": 1753.8
+            },
+            {
+              "date": "2026-04-12",
+              "label": "04/12",
+              "value": 1915.79
             }
           ]
         },
@@ -1245,10 +1270,10 @@ window.dashboardData = {
           "dataset": "legacy",
           "label": "去年遗留",
           "color": "#c47d1e",
-          "totalValue": 79099.28,
-          "averageValue": 1883.32,
-          "last7Average": 1524.49,
-          "latestValue": 1752.77,
+          "totalValue": 80799.04,
+          "averageValue": 1879.05,
+          "last7Average": 1495.89,
+          "latestValue": 1699.76,
           "peak": {
             "date": "2026-03-01",
             "label": "03/01",
@@ -1464,6 +1489,11 @@ window.dashboardData = {
               "date": "2026-04-11",
               "label": "04/11",
               "value": 1752.77
+            },
+            {
+              "date": "2026-04-12",
+              "label": "04/12",
+              "value": 1699.76
             }
           ]
         }
@@ -2135,30 +2165,46 @@ window.dashboardData = {
         "storeBase": 3088,
         "drawStores": 434,
         "drawRolling": 360.29,
-        "repayment": 3486.92,
-        "repaymentRolling": 2768.55,
-        "cumulativeRepayment": 106498.15,
+        "repayment": 3506.57,
+        "repaymentRolling": 2771.36,
+        "cumulativeRepayment": 106517.8,
         "cumulativeDrawStores": 12945,
         "mtDrawStores": 285,
         "mtRepayment": 2384.01,
         "elmDrawStores": 149,
-        "elmRepayment": 1102.91
+        "elmRepayment": 1122.56
       },
       {
         "date": "2026-04-12",
         "label": "04/12",
         "newStores": 17,
         "storeBase": 3105,
-        "drawStores": 139,
-        "drawRolling": 334.14,
-        "repayment": 785.54,
-        "repaymentRolling": 2441.14,
-        "cumulativeRepayment": 107283.69,
-        "cumulativeDrawStores": 13084,
+        "drawStores": 418,
+        "drawRolling": 374.0,
+        "repayment": 3615.55,
+        "repaymentRolling": 2848.23,
+        "cumulativeRepayment": 110133.35,
+        "cumulativeDrawStores": 13363,
+        "mtDrawStores": 279,
+        "mtRepayment": 2639.96,
+        "elmDrawStores": 139,
+        "elmRepayment": 975.59
+      },
+      {
+        "date": "2026-04-13",
+        "label": "04/13",
+        "newStores": 11,
+        "storeBase": 3116,
+        "drawStores": 138,
+        "drawRolling": 344.57,
+        "repayment": 737.11,
+        "repaymentRolling": 2566.69,
+        "cumulativeRepayment": 110870.46,
+        "cumulativeDrawStores": 13501,
         "mtDrawStores": 0,
         "mtRepayment": 0.0,
-        "elmDrawStores": 139,
-        "elmRepayment": 785.54
+        "elmDrawStores": 138,
+        "elmRepayment": 737.11
       }
     ],
     "current": [
@@ -2825,30 +2871,46 @@ window.dashboardData = {
         "storeBase": 510,
         "drawStores": 245,
         "drawRolling": 182.14,
-        "repayment": 1734.15,
-        "repaymentRolling": 1244.06,
-        "cumulativeRepayment": 27398.87,
+        "repayment": 1753.8,
+        "repaymentRolling": 1246.86,
+        "cumulativeRepayment": 27418.52,
         "cumulativeDrawStores": 3924,
         "mtDrawStores": 155,
         "mtRepayment": 1195.47,
         "elmDrawStores": 90,
-        "elmRepayment": 538.68
+        "elmRepayment": 558.33
       },
       {
         "date": "2026-04-12",
         "label": "04/12",
         "newStores": 17,
         "storeBase": 527,
-        "drawStores": 90,
-        "drawRolling": 174.29,
-        "repayment": 431.22,
-        "repaymentRolling": 1137.46,
-        "cumulativeRepayment": 27830.09,
-        "cumulativeDrawStores": 4014,
+        "drawStores": 244,
+        "drawRolling": 196.29,
+        "repayment": 1915.79,
+        "repaymentRolling": 1352.35,
+        "cumulativeRepayment": 29334.31,
+        "cumulativeDrawStores": 4168,
+        "mtDrawStores": 154,
+        "mtRepayment": 1449.45,
+        "elmDrawStores": 90,
+        "elmRepayment": 466.34
+      },
+      {
+        "date": "2026-04-13",
+        "label": "04/13",
+        "newStores": 11,
+        "storeBase": 538,
+        "drawStores": 88,
+        "drawRolling": 186.86,
+        "repayment": 420.68,
+        "repaymentRolling": 1248.99,
+        "cumulativeRepayment": 29754.99,
+        "cumulativeDrawStores": 4256,
         "mtDrawStores": 0,
         "mtRepayment": 0.0,
-        "elmDrawStores": 90,
-        "elmRepayment": 431.22
+        "elmDrawStores": 88,
+        "elmRepayment": 420.68
       }
     ],
     "legacy": [
@@ -3529,16 +3591,32 @@ window.dashboardData = {
         "label": "04/12",
         "newStores": null,
         "storeBase": 2578,
-        "drawStores": 49,
-        "drawRolling": 159.86,
-        "repayment": 354.32,
-        "repaymentRolling": 1303.68,
-        "cumulativeRepayment": 79453.6,
-        "cumulativeDrawStores": 9070,
+        "drawStores": 174,
+        "drawRolling": 177.71,
+        "repayment": 1699.76,
+        "repaymentRolling": 1495.89,
+        "cumulativeRepayment": 80799.04,
+        "cumulativeDrawStores": 9195,
+        "mtDrawStores": 125,
+        "mtRepayment": 1190.51,
+        "elmDrawStores": 49,
+        "elmRepayment": 509.25
+      },
+      {
+        "date": "2026-04-13",
+        "label": "04/13",
+        "newStores": null,
+        "storeBase": 2578,
+        "drawStores": 50,
+        "drawRolling": 157.71,
+        "repayment": 316.43,
+        "repaymentRolling": 1317.7,
+        "cumulativeRepayment": 81115.47,
+        "cumulativeDrawStores": 9245,
         "mtDrawStores": 0,
         "mtRepayment": 0.0,
-        "elmDrawStores": 49,
-        "elmRepayment": 354.32
+        "elmDrawStores": 50,
+        "elmRepayment": 316.43
       }
     ]
   },
@@ -3559,29 +3637,29 @@ window.dashboardData = {
   "insights": [
     {
       "title": "遗留贡献占比",
-      "value": "74.1%",
-      "metric": "回款 ¥79,453.60 / 抽点 9,070 次",
+      "value": "73.2%",
+      "metric": "回款 ¥81,115.47 / 抽点 9,245 次",
       "body": "去年遗留店铺仍是当前总盘回款主力，说明存量盘稳定性直接决定整体结果。",
       "tone": "accent"
     },
     {
       "title": "新开爬坡速度",
-      "value": "+2458.4%",
-      "metric": "¥44.46 → ¥1,137.46",
+      "value": "+2709.2%",
+      "metric": "¥44.46 → ¥1,248.99",
       "body": "今年新开单回款从前 7 天的低基数快速爬升到最近 7 天的四位数水平，新增门店正在逐步兑现。",
       "tone": "blue"
     },
     {
       "title": "总盘峰值分离",
       "value": "04/11",
-      "metric": "抽点峰值 434 家；金额峰值 04/11 ¥3,486.92",
+      "metric": "抽点峰值 434 家；金额峰值 04/12 ¥3,615.55",
       "body": "合并后抽点峰值和金额峰值不在同一天，说明门店活跃度与当日金额兑现并非完全同步，需要分别观察。",
       "tone": "gold"
     },
     {
       "title": "总盘近7日走势",
-      "value": "+35.0%",
-      "metric": "247.57 家/日 → 334.14 家/日",
+      "value": "+39.2%",
+      "metric": "247.57 家/日 → 344.57 家/日",
       "body": "总抽点店铺数近 7 日均值仍在抬升，但金额增速已低于新开单单独口径，意味着总盘增量更多来自规模扩张而非单店效率提升。",
       "tone": "good"
     }
@@ -3596,7 +3674,7 @@ window.dashboardData = {
       {
         "source": "今年新开单",
         "label": "开单店铺范围",
-        "text": "统计 2026-03-01 到 2026-04-12 之间开单的全部店铺。"
+        "text": "统计 2026-03-01 到 2026-04-13 之间开单的全部店铺。"
       },
       {
         "source": "今年新开单",
@@ -3633,7 +3711,7 @@ window.dashboardData = {
       {
         "source": "去年遗留",
         "label": "统计截止日期",
-        "text": "默认延长到最新抽点业务日期 2026-04-12。"
+        "text": "默认延长到最新抽点业务日期 2026-04-13。"
       },
       {
         "source": "去年遗留",
