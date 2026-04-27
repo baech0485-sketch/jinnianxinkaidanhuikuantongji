@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今年新开单与去年遗留店铺合并抽点回款看板</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="hero-tag">COMBINED DAILY DASHBOARD</div>
+      <h1>今年新开单与去年遗留店铺合并抽点回款看板</h1>
+      <p class="hero-sub" id="heroMeta"></p>
+    </header>
+
+    <section class="kpi-grid" id="kpiGrid"></section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h2>趋势对比</h2>
+        <p>每张图同时展示总数据、今年新开单、去年遗留三条趋势线。</p>
+      </div>
+      <div class="chart-grid">
+        <article class="chart-card">
+          <div class="chart-head">
+            <h3 id="drawTitle"></h3>
+            <p id="drawSubtitle"></p>
+          </div>
+          <div class="chart-summary" id="drawSummary"></div>
+          <div class="chart-legend" id="drawLegend"></div>
+          <div class="chart-stage">
+            <svg id="drawChart" viewBox="0 0 680 340" aria-label="每日抽点店铺数对比图"></svg>
+          </div>
+        </article>
+        <article class="chart-card">
+          <div class="chart-head">
+            <h3 id="repaymentTitle"></h3>
+            <p id="repaymentSubtitle"></p>
+          </div>
+          <div class="chart-summary" id="repaymentSummary"></div>
+          <div class="chart-legend" id="repaymentLegend"></div>
+          <div class="chart-stage">
+            <svg id="repaymentChart" viewBox="0 0 680 340" aria-label="每日回款金额对比图"></svg>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel table-panel">
+      <div class="section-head">
+        <h2>数据列表切换</h2>
+        <p id="tableDescription"></p>
+      </div>
+      <div class="table-toolbar" id="tableToolbar"></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>日期</th>
+              <th>当日新增开单</th>
+              <th>店铺基数</th>
+              <th>当日抽点店铺</th>
+              <th>7日抽点均值</th>
+              <th>当日回款</th>
+              <th>7日回款均值</th>
+              <th>累计回款</th>
+              <th>累计抽点次数</th>
+              <th>美团抽点 / 回款</th>
+              <th>饿了么抽点 / 回款</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h2>分析结论</h2>
+        <p>聚焦总盘贡献结构、爬坡速度与峰值时点。</p>
+      </div>
+      <div class="insight-grid" id="insightGrid"></div>
+    </section>
+
+    <section class="panel notes-panel">
+      <div class="section-head">
+        <h2>统计口径</h2>
+        <p>按两个 Excel 工作簿中的“统计口径”工作表分别展示。</p>
+      </div>
+      <div class="notes-section">
+        <h3>今年新开单口径</h3>
+        <div class="notes-list" id="currentNotes"></div>
+      </div>
+      <div class="notes-section">
+        <h3>去年遗留口径</h3>
+        <div class="notes-list" id="legacyNotes"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
