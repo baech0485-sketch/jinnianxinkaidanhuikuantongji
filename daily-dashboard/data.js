@@ -6,82 +6,82 @@
 window.dashboardData = {
   "meta": {
     "title": "今年新开单与去年遗留店铺合并抽点回款看板",
-    "dateRange": "2026-03-01 至 2026-04-22",
+    "dateRange": "2026-03-01 至 2026-04-26",
     "sourceFiles": [
       "2026年3月开单店铺每日抽点与回款累计统计.xlsx",
       "去年遗留店铺自2026年3月起每日抽点与回款统计.xlsx"
     ],
     "exportTimes": [
-      "2026/4/23 09:45:32",
-      "2026/4/23 09:45:45"
+      "2026/4/27 10:19:00",
+      "2026/4/27 10:19:13"
     ]
   },
   "summary": {
-    "totalOpenStores": 3272,
-    "latestStoreBase": 3272,
-    "totalReportDays": 53,
-    "totalDrawStoreCount": 17398,
-    "totalRepayment": 141794.76,
-    "avgDailyDrawStores": 328.26,
-    "avgDailyRepayment": 2675.37,
-    "medianDailyDrawStores": 325.0,
-    "medianDailyRepayment": 2616.69,
-    "activeDrawDays": 53,
-    "activeRepaymentDays": 53,
+    "totalOpenStores": 3348,
+    "latestStoreBase": 3348,
+    "totalReportDays": 57,
+    "totalDrawStoreCount": 19267,
+    "totalRepayment": 155599.28,
+    "avgDailyDrawStores": 338.02,
+    "avgDailyRepayment": 2729.81,
+    "medianDailyDrawStores": 329.0,
+    "medianDailyRepayment": 2686.51,
+    "activeDrawDays": 57,
+    "activeRepaymentDays": 57,
     "first7DrawAvg": 247.57,
-    "last7DrawAvg": 399.43,
-    "drawGrowthPct": 61.34,
+    "last7DrawAvg": 413.29,
+    "drawGrowthPct": 66.94,
     "first7RepaymentAvg": 2253.49,
-    "last7RepaymentAvg": 3107.46,
-    "repaymentGrowthPct": 37.9,
-    "peakDrawDate": "2026-04-17",
-    "peakDrawLabel": "04/17",
-    "peakDrawValue": 452,
+    "last7RepaymentAvg": 3053.76,
+    "repaymentGrowthPct": 35.51,
+    "peakDrawDate": "2026-04-25",
+    "peakDrawLabel": "04/25",
+    "peakDrawValue": 477,
     "peakRepaymentDate": "2026-04-19",
     "peakRepaymentLabel": "04/19",
-    "peakRepaymentValue": 3915.78,
-    "mtAmountTotal": 101821.73,
-    "elmAmountTotal": 39973.03,
-    "mtDrawStoreTotal": 11909,
-    "elmDrawStoreTotal": 5489,
-    "mtAmountSharePct": 71.81,
-    "currentOpenStores": 694,
+    "peakRepaymentValue": 3917.41,
+    "mtAmountTotal": 110878.61,
+    "elmAmountTotal": 44720.67,
+    "mtDrawStoreTotal": 13074,
+    "elmDrawStoreTotal": 6193,
+    "mtAmountSharePct": 71.26,
+    "currentOpenStores": 770,
     "legacyOpenStores": 2578
   },
   "headlineCards": [
     {
       "label": "总店铺基数",
-      "value": "3,272",
-      "note": "去年遗留 2,578 + 今年新开 694",
+      "value": "3,348",
+      "note": "去年遗留 2,578 + 今年新开 770",
       "tone": "accent"
     },
     {
       "label": "总累计抽点次数",
-      "value": "17,398",
-      "note": "今年新开 6,717 / 去年遗留 10,681",
+      "value": "19,267",
+      "note": "今年新开 7,980 / 去年遗留 11,287",
       "tone": "blue"
     },
     {
       "label": "总累计回款金额",
-      "value": "¥141,794.76",
-      "note": "日均 ¥2,675.37",
+      "value": "¥155,599.28",
+      "note": "日均 ¥2,729.81",
       "tone": "good"
     },
     {
       "label": "今年新开累计回款",
-      "value": "¥47,891.70",
-      "note": "近7日日均 ¥1,892.78",
+      "value": "¥56,895.82",
+      "note": "近7日日均 ¥1,963.12",
       "tone": "blue"
     },
     {
       "label": "去年遗留累计回款",
-      "value": "¥93,903.06",
-      "note": "近7日日均 ¥1,214.68",
+      "value": "¥98,703.46",
+      "note": "近7日日均 ¥1,090.64",
       "tone": "accent"
     },
     {
       "label": "遗留回款贡献占比",
-      "value": "66.2%",
+      "value": "63.4%",
       "note": "当前总回款仍以去年遗留店铺为主",
       "tone": "gold"
     }
@@ -90,26 +90,26 @@ window.dashboardData = {
     {
       "key": "dailyDrawStores",
       "title": "每日抽点店铺数对比",
-      "subtitle": "同一日期对比今年新开单、去年遗留与总数据走势。图表已排除 2026-04-22，避免缺少美团数据导致失真。",
+      "subtitle": "同一日期对比今年新开单、去年遗留与总数据走势。图表已排除 2026-04-26，避免缺少美团数据导致失真。",
       "kind": "count",
       "peak": {
-        "date": "2026-04-17",
-        "label": "04/17",
-        "value": 452.0
+        "date": "2026-04-25",
+        "label": "04/25",
+        "value": 477.0
       },
       "lines": [
         {
           "dataset": "total",
           "label": "总数据",
           "color": "#1f2430",
-          "totalValue": 17244.0,
-          "averageValue": 331.62,
-          "last7Average": 437.71,
-          "latestValue": 447.0,
+          "totalValue": 19080.0,
+          "averageValue": 340.71,
+          "last7Average": 448.57,
+          "latestValue": 477.0,
           "peak": {
-            "date": "2026-04-17",
-            "label": "04/17",
-            "value": 452.0
+            "date": "2026-04-25",
+            "label": "04/25",
+            "value": 477.0
           },
           "series": [
             {
@@ -371,6 +371,26 @@ window.dashboardData = {
               "date": "2026-04-21",
               "label": "04/21",
               "value": 447.0
+            },
+            {
+              "date": "2026-04-22",
+              "label": "04/22",
+              "value": 446.0
+            },
+            {
+              "date": "2026-04-23",
+              "label": "04/23",
+              "value": 451.0
+            },
+            {
+              "date": "2026-04-24",
+              "label": "04/24",
+              "value": 462.0
+            },
+            {
+              "date": "2026-04-25",
+              "label": "04/25",
+              "value": 477.0
             }
           ]
         },
@@ -378,14 +398,14 @@ window.dashboardData = {
           "dataset": "current",
           "label": "今年新开单",
           "color": "#3a6fdd",
-          "totalValue": 6603.0,
-          "averageValue": 126.98,
-          "last7Average": 278.57,
-          "latestValue": 288.0,
+          "totalValue": 7839.0,
+          "averageValue": 139.98,
+          "last7Average": 296.43,
+          "latestValue": 321.0,
           "peak": {
-            "date": "2026-04-17",
-            "label": "04/17",
-            "value": 295.0
+            "date": "2026-04-25",
+            "label": "04/25",
+            "value": 321.0
           },
           "series": [
             {
@@ -647,6 +667,26 @@ window.dashboardData = {
               "date": "2026-04-21",
               "label": "04/21",
               "value": 288.0
+            },
+            {
+              "date": "2026-04-22",
+              "label": "04/22",
+              "value": 299.0
+            },
+            {
+              "date": "2026-04-23",
+              "label": "04/23",
+              "value": 303.0
+            },
+            {
+              "date": "2026-04-24",
+              "label": "04/24",
+              "value": 313.0
+            },
+            {
+              "date": "2026-04-25",
+              "label": "04/25",
+              "value": 321.0
             }
           ]
         },
@@ -654,10 +694,10 @@ window.dashboardData = {
           "dataset": "legacy",
           "label": "去年遗留",
           "color": "#c47d1e",
-          "totalValue": 10641.0,
-          "averageValue": 204.63,
-          "last7Average": 159.14,
-          "latestValue": 159.0,
+          "totalValue": 11241.0,
+          "averageValue": 200.73,
+          "last7Average": 152.14,
+          "latestValue": 156.0,
           "peak": {
             "date": "2026-03-07",
             "label": "03/07",
@@ -923,6 +963,26 @@ window.dashboardData = {
               "date": "2026-04-21",
               "label": "04/21",
               "value": 159.0
+            },
+            {
+              "date": "2026-04-22",
+              "label": "04/22",
+              "value": 147.0
+            },
+            {
+              "date": "2026-04-23",
+              "label": "04/23",
+              "value": 148.0
+            },
+            {
+              "date": "2026-04-24",
+              "label": "04/24",
+              "value": 149.0
+            },
+            {
+              "date": "2026-04-25",
+              "label": "04/25",
+              "value": 156.0
             }
           ]
         }
@@ -931,26 +991,26 @@ window.dashboardData = {
     {
       "key": "dailyRepayment",
       "title": "每日回款金额对比",
-      "subtitle": "同一日期对比今年新开单、去年遗留与总数据回款金额。图表已排除 2026-04-22，避免缺少美团数据导致失真。",
+      "subtitle": "同一日期对比今年新开单、去年遗留与总数据回款金额。图表已排除 2026-04-26，避免缺少美团数据导致失真。",
       "kind": "money",
       "peak": {
         "date": "2026-04-19",
         "label": "04/19",
-        "value": 3915.78
+        "value": 3917.41
       },
       "lines": [
         {
           "dataset": "total",
           "label": "总数据",
           "color": "#1f2430",
-          "totalValue": 140888.78,
-          "averageValue": 2709.4,
-          "last7Average": 3428.05,
-          "latestValue": 3569.05,
+          "totalValue": 154408.47,
+          "averageValue": 2757.29,
+          "last7Average": 3443.28,
+          "latestValue": 3555.29,
           "peak": {
             "date": "2026-04-19",
             "label": "04/19",
-            "value": 3915.78
+            "value": 3917.41
           },
           "series": [
             {
@@ -1126,22 +1186,22 @@ window.dashboardData = {
             {
               "date": "2026-04-04",
               "label": "04/04",
-              "value": 2630.64
+              "value": 2640.17
             },
             {
               "date": "2026-04-05",
               "label": "04/05",
-              "value": 3077.44
+              "value": 3083.41
             },
             {
               "date": "2026-04-06",
               "label": "04/06",
-              "value": 2724.62
+              "value": 2727.25
             },
             {
               "date": "2026-04-07",
               "label": "04/07",
-              "value": 2228.82
+              "value": 2230.94
             },
             {
               "date": "2026-04-08",
@@ -1191,27 +1251,47 @@ window.dashboardData = {
             {
               "date": "2026-04-17",
               "label": "04/17",
-              "value": 3428.41
+              "value": 3428.8
             },
             {
               "date": "2026-04-18",
               "label": "04/18",
-              "value": 3558.92
+              "value": 3562.29
             },
             {
               "date": "2026-04-19",
               "label": "04/19",
-              "value": 3915.78
+              "value": 3917.41
             },
             {
               "date": "2026-04-20",
               "label": "04/20",
-              "value": 3122.42
+              "value": 3125.46
             },
             {
               "date": "2026-04-21",
               "label": "04/21",
-              "value": 3569.05
+              "value": 3569.59
+            },
+            {
+              "date": "2026-04-22",
+              "label": "04/22",
+              "value": 3264.38
+            },
+            {
+              "date": "2026-04-23",
+              "label": "04/23",
+              "value": 3269.29
+            },
+            {
+              "date": "2026-04-24",
+              "label": "04/24",
+              "value": 3401.51
+            },
+            {
+              "date": "2026-04-25",
+              "label": "04/25",
+              "value": 3555.29
             }
           ]
         },
@@ -1219,14 +1299,14 @@ window.dashboardData = {
           "dataset": "current",
           "label": "今年新开单",
           "color": "#3a6fdd",
-          "totalValue": 47274.55,
-          "averageValue": 909.13,
-          "last7Average": 2062.06,
-          "latestValue": 2192.25,
+          "totalValue": 56078.77,
+          "averageValue": 1001.41,
+          "last7Average": 2174.59,
+          "latestValue": 2403.32,
           "peak": {
-            "date": "2026-04-19",
-            "label": "04/19",
-            "value": 2295.76
+            "date": "2026-04-25",
+            "label": "04/25",
+            "value": 2403.32
           },
           "series": [
             {
@@ -1402,22 +1482,22 @@ window.dashboardData = {
             {
               "date": "2026-04-04",
               "label": "04/04",
-              "value": 1038.36
+              "value": 1047.89
             },
             {
               "date": "2026-04-05",
               "label": "04/05",
-              "value": 1177.42
+              "value": 1183.39
             },
             {
               "date": "2026-04-06",
               "label": "04/06",
-              "value": 1147.0
+              "value": 1149.63
             },
             {
               "date": "2026-04-07",
               "label": "04/07",
-              "value": 841.9
+              "value": 844.02
             },
             {
               "date": "2026-04-08",
@@ -1467,27 +1547,47 @@ window.dashboardData = {
             {
               "date": "2026-04-17",
               "label": "04/17",
-              "value": 2129.12
+              "value": 2129.51
             },
             {
               "date": "2026-04-18",
               "label": "04/18",
-              "value": 2135.0
+              "value": 2138.37
             },
             {
               "date": "2026-04-19",
               "label": "04/19",
-              "value": 2295.76
+              "value": 2297.39
             },
             {
               "date": "2026-04-20",
               "label": "04/20",
-              "value": 1953.94
+              "value": 1956.98
             },
             {
               "date": "2026-04-21",
               "label": "04/21",
-              "value": 2192.25
+              "value": 2192.79
+            },
+            {
+              "date": "2026-04-22",
+              "label": "04/22",
+              "value": 2096.49
+            },
+            {
+              "date": "2026-04-23",
+              "label": "04/23",
+              "value": 2158.96
+            },
+            {
+              "date": "2026-04-24",
+              "label": "04/24",
+              "value": 2116.23
+            },
+            {
+              "date": "2026-04-25",
+              "label": "04/25",
+              "value": 2403.32
             }
           ]
         },
@@ -1495,10 +1595,10 @@ window.dashboardData = {
           "dataset": "legacy",
           "label": "去年遗留",
           "color": "#c47d1e",
-          "totalValue": 93614.23,
-          "averageValue": 1800.27,
-          "last7Average": 1365.99,
-          "latestValue": 1376.8,
+          "totalValue": 98329.7,
+          "averageValue": 1755.89,
+          "last7Average": 1268.68,
+          "latestValue": 1151.97,
           "peak": {
             "date": "2026-03-01",
             "label": "03/01",
@@ -1764,6 +1864,26 @@ window.dashboardData = {
               "date": "2026-04-21",
               "label": "04/21",
               "value": 1376.8
+            },
+            {
+              "date": "2026-04-22",
+              "label": "04/22",
+              "value": 1167.89
+            },
+            {
+              "date": "2026-04-23",
+              "label": "04/23",
+              "value": 1110.33
+            },
+            {
+              "date": "2026-04-24",
+              "label": "04/24",
+              "value": 1285.28
+            },
+            {
+              "date": "2026-04-25",
+              "label": "04/25",
+              "value": 1151.97
             }
           ]
         }
@@ -2323,14 +2443,14 @@ window.dashboardData = {
         "storeBase": 2937,
         "drawStores": 345,
         "drawRolling": 338.86,
-        "repayment": 2630.64,
-        "repaymentRolling": 2642.08,
-        "cumulativeRepayment": 87555.12,
+        "repayment": 2640.17,
+        "repaymentRolling": 2643.44,
+        "cumulativeRepayment": 87564.65,
         "cumulativeDrawStores": 10423,
         "mtDrawStores": 235,
         "mtRepayment": 1951.91,
         "elmDrawStores": 110,
-        "elmRepayment": 678.73
+        "elmRepayment": 688.26
       },
       {
         "date": "2026-04-05",
@@ -2339,14 +2459,14 @@ window.dashboardData = {
         "storeBase": 2937,
         "drawStores": 322,
         "drawRolling": 337.57,
-        "repayment": 3077.44,
-        "repaymentRolling": 2665.69,
-        "cumulativeRepayment": 90632.56,
+        "repayment": 3083.41,
+        "repaymentRolling": 2667.9,
+        "cumulativeRepayment": 90648.06,
         "cumulativeDrawStores": 10745,
         "mtDrawStores": 219,
         "mtRepayment": 2170.89,
         "elmDrawStores": 103,
-        "elmRepayment": 906.55
+        "elmRepayment": 912.52
       },
       {
         "date": "2026-04-06",
@@ -2355,14 +2475,14 @@ window.dashboardData = {
         "storeBase": 2947,
         "drawStores": 344,
         "drawRolling": 340.29,
-        "repayment": 2724.62,
-        "repaymentRolling": 2705.02,
-        "cumulativeRepayment": 93357.18,
+        "repayment": 2727.25,
+        "repaymentRolling": 2707.61,
+        "cumulativeRepayment": 93375.31,
         "cumulativeDrawStores": 11089,
         "mtDrawStores": 238,
         "mtRepayment": 1990.56,
         "elmDrawStores": 106,
-        "elmRepayment": 734.06
+        "elmRepayment": 736.69
       },
       {
         "date": "2026-04-07",
@@ -2371,14 +2491,14 @@ window.dashboardData = {
         "storeBase": 2973,
         "drawStores": 335,
         "drawRolling": 339.57,
-        "repayment": 2228.82,
-        "repaymentRolling": 2670.55,
-        "cumulativeRepayment": 95586.0,
+        "repayment": 2230.94,
+        "repaymentRolling": 2673.44,
+        "cumulativeRepayment": 95606.25,
         "cumulativeDrawStores": 11424,
         "mtDrawStores": 231,
         "mtRepayment": 1634.9,
         "elmDrawStores": 104,
-        "elmRepayment": 593.92
+        "elmRepayment": 596.04
       },
       {
         "date": "2026-04-08",
@@ -2388,8 +2508,8 @@ window.dashboardData = {
         "drawStores": 348,
         "drawRolling": 338.43,
         "repayment": 2528.54,
-        "repaymentRolling": 2657.96,
-        "cumulativeRepayment": 98114.54,
+        "repaymentRolling": 2660.85,
+        "cumulativeRepayment": 98134.79,
         "cumulativeDrawStores": 11772,
         "mtDrawStores": 240,
         "mtRepayment": 1879.66,
@@ -2404,8 +2524,8 @@ window.dashboardData = {
         "drawStores": 361,
         "drawRolling": 342.57,
         "repayment": 2585.7,
-        "repaymentRolling": 2667.63,
-        "cumulativeRepayment": 100700.24,
+        "repaymentRolling": 2670.52,
+        "cumulativeRepayment": 100720.49,
         "cumulativeDrawStores": 12133,
         "mtDrawStores": 242,
         "mtRepayment": 1826.56,
@@ -2420,8 +2540,8 @@ window.dashboardData = {
         "drawStores": 378,
         "drawRolling": 347.57,
         "repayment": 2812.18,
-        "repaymentRolling": 2655.42,
-        "cumulativeRepayment": 103512.42,
+        "repaymentRolling": 2658.31,
+        "cumulativeRepayment": 103532.67,
         "cumulativeDrawStores": 12511,
         "mtDrawStores": 254,
         "mtRepayment": 1846.27,
@@ -2436,8 +2556,8 @@ window.dashboardData = {
         "drawStores": 434,
         "drawRolling": 360.29,
         "repayment": 3518.32,
-        "repaymentRolling": 2782.23,
-        "cumulativeRepayment": 107030.74,
+        "repaymentRolling": 2783.76,
+        "cumulativeRepayment": 107050.99,
         "cumulativeDrawStores": 12945,
         "mtDrawStores": 285,
         "mtRepayment": 2384.01,
@@ -2452,8 +2572,8 @@ window.dashboardData = {
         "drawStores": 418,
         "drawRolling": 374.0,
         "repayment": 3619.52,
-        "repaymentRolling": 2859.67,
-        "cumulativeRepayment": 110650.26,
+        "repaymentRolling": 2860.35,
+        "cumulativeRepayment": 110670.51,
         "cumulativeDrawStores": 13363,
         "mtDrawStores": 279,
         "mtRepayment": 2639.96,
@@ -2468,8 +2588,8 @@ window.dashboardData = {
         "drawStores": 399,
         "drawRolling": 381.86,
         "repayment": 2955.8,
-        "repaymentRolling": 2892.7,
-        "cumulativeRepayment": 113606.06,
+        "repaymentRolling": 2893.0,
+        "cumulativeRepayment": 113626.31,
         "cumulativeDrawStores": 13762,
         "mtDrawStores": 261,
         "mtRepayment": 2114.45,
@@ -2485,7 +2605,7 @@ window.dashboardData = {
         "drawRolling": 393.71,
         "repayment": 3286.37,
         "repaymentRolling": 3043.78,
-        "cumulativeRepayment": 116892.43,
+        "cumulativeRepayment": 116912.68,
         "cumulativeDrawStores": 14180,
         "mtDrawStores": 274,
         "mtRepayment": 2190.56,
@@ -2501,7 +2621,7 @@ window.dashboardData = {
         "drawRolling": 404.29,
         "repayment": 3150.14,
         "repaymentRolling": 3132.58,
-        "cumulativeRepayment": 120042.57,
+        "cumulativeRepayment": 120062.82,
         "cumulativeDrawStores": 14602,
         "mtDrawStores": 281,
         "mtRepayment": 2115.47,
@@ -2517,7 +2637,7 @@ window.dashboardData = {
         "drawRolling": 415.71,
         "repayment": 3251.63,
         "repaymentRolling": 3227.71,
-        "cumulativeRepayment": 123294.2,
+        "cumulativeRepayment": 123314.45,
         "cumulativeDrawStores": 15043,
         "mtDrawStores": 283,
         "mtRepayment": 2297.81,
@@ -2531,14 +2651,14 @@ window.dashboardData = {
         "storeBase": 3208,
         "drawStores": 452,
         "drawRolling": 426.29,
-        "repayment": 3428.41,
-        "repaymentRolling": 3315.74,
-        "cumulativeRepayment": 126722.61,
+        "repayment": 3428.8,
+        "repaymentRolling": 3315.8,
+        "cumulativeRepayment": 126743.25,
         "cumulativeDrawStores": 15495,
         "mtDrawStores": 291,
         "mtRepayment": 2431.82,
         "elmDrawStores": 161,
-        "elmRepayment": 996.59
+        "elmRepayment": 996.98
       },
       {
         "date": "2026-04-18",
@@ -2547,14 +2667,14 @@ window.dashboardData = {
         "storeBase": 3211,
         "drawStores": 445,
         "drawRolling": 427.86,
-        "repayment": 3558.92,
-        "repaymentRolling": 3321.54,
-        "cumulativeRepayment": 130281.53,
+        "repayment": 3562.29,
+        "repaymentRolling": 3322.08,
+        "cumulativeRepayment": 130305.54,
         "cumulativeDrawStores": 15940,
         "mtDrawStores": 288,
         "mtRepayment": 2523.49,
         "elmDrawStores": 157,
-        "elmRepayment": 1035.43
+        "elmRepayment": 1038.8
       },
       {
         "date": "2026-04-19",
@@ -2563,14 +2683,14 @@ window.dashboardData = {
         "storeBase": 3215,
         "drawStores": 434,
         "drawRolling": 430.14,
-        "repayment": 3915.78,
-        "repaymentRolling": 3363.86,
-        "cumulativeRepayment": 134197.31,
+        "repayment": 3917.41,
+        "repaymentRolling": 3364.63,
+        "cumulativeRepayment": 134222.95,
         "cumulativeDrawStores": 16374,
         "mtDrawStores": 274,
         "mtRepayment": 2598.24,
         "elmDrawStores": 160,
-        "elmRepayment": 1317.54
+        "elmRepayment": 1319.17
       },
       {
         "date": "2026-04-20",
@@ -2579,14 +2699,14 @@ window.dashboardData = {
         "storeBase": 3228,
         "drawStores": 423,
         "drawRolling": 433.57,
-        "repayment": 3122.42,
-        "repaymentRolling": 3387.67,
-        "cumulativeRepayment": 137319.73,
+        "repayment": 3125.46,
+        "repaymentRolling": 3388.87,
+        "cumulativeRepayment": 137348.41,
         "cumulativeDrawStores": 16797,
         "mtDrawStores": 277,
         "mtRepayment": 2144.74,
         "elmDrawStores": 146,
-        "elmRepayment": 977.68
+        "elmRepayment": 980.72
       },
       {
         "date": "2026-04-21",
@@ -2595,30 +2715,94 @@ window.dashboardData = {
         "storeBase": 3257,
         "drawStores": 447,
         "drawRolling": 437.71,
-        "repayment": 3569.05,
-        "repaymentRolling": 3428.05,
-        "cumulativeRepayment": 140888.78,
+        "repayment": 3569.59,
+        "repaymentRolling": 3429.33,
+        "cumulativeRepayment": 140918.0,
         "cumulativeDrawStores": 17244,
         "mtDrawStores": 284,
         "mtRepayment": 2428.56,
         "elmDrawStores": 163,
-        "elmRepayment": 1140.49
+        "elmRepayment": 1141.03
       },
       {
         "date": "2026-04-22",
         "label": "04/22",
         "newStores": 15,
         "storeBase": 3272,
-        "drawStores": 154,
-        "drawRolling": 399.43,
-        "repayment": 905.98,
-        "repaymentRolling": 3107.46,
-        "cumulativeRepayment": 141794.76,
-        "cumulativeDrawStores": 17398,
+        "drawStores": 446,
+        "drawRolling": 441.14,
+        "repayment": 3264.38,
+        "repaymentRolling": 3445.65,
+        "cumulativeRepayment": 144182.38,
+        "cumulativeDrawStores": 17690,
+        "mtDrawStores": 292,
+        "mtRepayment": 2275.75,
+        "elmDrawStores": 154,
+        "elmRepayment": 988.63
+      },
+      {
+        "date": "2026-04-23",
+        "label": "04/23",
+        "newStores": 15,
+        "storeBase": 3287,
+        "drawStores": 451,
+        "drawRolling": 442.57,
+        "repayment": 3269.29,
+        "repaymentRolling": 3448.17,
+        "cumulativeRepayment": 147451.67,
+        "cumulativeDrawStores": 18141,
+        "mtDrawStores": 285,
+        "mtRepayment": 2181.44,
+        "elmDrawStores": 166,
+        "elmRepayment": 1087.85
+      },
+      {
+        "date": "2026-04-24",
+        "label": "04/24",
+        "newStores": 27,
+        "storeBase": 3314,
+        "drawStores": 462,
+        "drawRolling": 444.0,
+        "repayment": 3401.51,
+        "repaymentRolling": 3444.28,
+        "cumulativeRepayment": 150853.18,
+        "cumulativeDrawStores": 18603,
+        "mtDrawStores": 290,
+        "mtRepayment": 2156.71,
+        "elmDrawStores": 172,
+        "elmRepayment": 1244.8
+      },
+      {
+        "date": "2026-04-25",
+        "label": "04/25",
+        "newStores": 22,
+        "storeBase": 3336,
+        "drawStores": 477,
+        "drawRolling": 448.57,
+        "repayment": 3555.29,
+        "repaymentRolling": 3443.28,
+        "cumulativeRepayment": 154408.47,
+        "cumulativeDrawStores": 19080,
+        "mtDrawStores": 298,
+        "mtRepayment": 2442.98,
+        "elmDrawStores": 179,
+        "elmRepayment": 1112.31
+      },
+      {
+        "date": "2026-04-26",
+        "label": "04/26",
+        "newStores": 12,
+        "storeBase": 3348,
+        "drawStores": 187,
+        "drawRolling": 413.29,
+        "repayment": 1190.81,
+        "repaymentRolling": 3053.76,
+        "cumulativeRepayment": 155599.28,
+        "cumulativeDrawStores": 19267,
         "mtDrawStores": 0,
         "mtRepayment": 0.0,
-        "elmDrawStores": 154,
-        "elmRepayment": 905.98
+        "elmDrawStores": 187,
+        "elmRepayment": 1190.81
       }
     ],
     "current": [
@@ -3173,14 +3357,14 @@ window.dashboardData = {
         "storeBase": 359,
         "drawStores": 158,
         "drawRolling": 144.71,
-        "repayment": 1038.36,
-        "repaymentRolling": 1028.83,
-        "cumulativeRepayment": 18727.75,
+        "repayment": 1047.89,
+        "repaymentRolling": 1030.19,
+        "cumulativeRepayment": 18737.28,
         "cumulativeDrawStores": 2649,
         "mtDrawStores": 101,
         "mtRepayment": 742.64,
         "elmDrawStores": 57,
-        "elmRepayment": 295.72
+        "elmRepayment": 305.25
       },
       {
         "date": "2026-04-05",
@@ -3189,14 +3373,14 @@ window.dashboardData = {
         "storeBase": 359,
         "drawStores": 145,
         "drawRolling": 146.43,
-        "repayment": 1177.42,
-        "repaymentRolling": 1040.6,
-        "cumulativeRepayment": 19905.17,
+        "repayment": 1183.39,
+        "repaymentRolling": 1042.82,
+        "cumulativeRepayment": 19920.67,
         "cumulativeDrawStores": 2794,
         "mtDrawStores": 95,
         "mtRepayment": 844.16,
         "elmDrawStores": 50,
-        "elmRepayment": 333.26
+        "elmRepayment": 339.23
       },
       {
         "date": "2026-04-06",
@@ -3205,14 +3389,14 @@ window.dashboardData = {
         "storeBase": 369,
         "drawStores": 154,
         "drawRolling": 150.29,
-        "repayment": 1147.0,
-        "repaymentRolling": 1074.33,
-        "cumulativeRepayment": 21052.17,
+        "repayment": 1149.63,
+        "repaymentRolling": 1076.92,
+        "cumulativeRepayment": 21070.3,
         "cumulativeDrawStores": 2948,
         "mtDrawStores": 100,
         "mtRepayment": 834.78,
         "elmDrawStores": 54,
-        "elmRepayment": 312.22
+        "elmRepayment": 314.85
       },
       {
         "date": "2026-04-07",
@@ -3221,14 +3405,14 @@ window.dashboardData = {
         "storeBase": 395,
         "drawStores": 151,
         "drawRolling": 150.43,
-        "repayment": 841.9,
-        "repaymentRolling": 1055.2,
-        "cumulativeRepayment": 21894.07,
+        "repayment": 844.02,
+        "repaymentRolling": 1058.09,
+        "cumulativeRepayment": 21914.32,
         "cumulativeDrawStores": 3099,
         "mtDrawStores": 102,
         "mtRepayment": 623.75,
         "elmDrawStores": 49,
-        "elmRepayment": 218.15
+        "elmRepayment": 220.27
       },
       {
         "date": "2026-04-08",
@@ -3238,8 +3422,8 @@ window.dashboardData = {
         "drawStores": 175,
         "drawRolling": 153.43,
         "repayment": 1200.37,
-        "repaymentRolling": 1076.31,
-        "cumulativeRepayment": 23094.44,
+        "repaymentRolling": 1079.2,
+        "cumulativeRepayment": 23114.69,
         "cumulativeDrawStores": 3274,
         "mtDrawStores": 119,
         "mtRepayment": 911.92,
@@ -3254,8 +3438,8 @@ window.dashboardData = {
         "drawStores": 194,
         "drawRolling": 161.71,
         "repayment": 1295.45,
-        "repaymentRolling": 1123.39,
-        "cumulativeRepayment": 24389.89,
+        "repaymentRolling": 1126.28,
+        "cumulativeRepayment": 24410.14,
         "cumulativeDrawStores": 3468,
         "mtDrawStores": 126,
         "mtRepayment": 918.43,
@@ -3270,8 +3454,8 @@ window.dashboardData = {
         "drawStores": 211,
         "drawRolling": 169.71,
         "repayment": 1337.57,
-        "repaymentRolling": 1148.3,
-        "cumulativeRepayment": 25727.46,
+        "repaymentRolling": 1151.19,
+        "cumulativeRepayment": 25747.71,
         "cumulativeDrawStores": 3679,
         "mtDrawStores": 134,
         "mtRepayment": 886.58,
@@ -3286,8 +3470,8 @@ window.dashboardData = {
         "drawStores": 245,
         "drawRolling": 182.14,
         "repayment": 1765.55,
-        "repaymentRolling": 1252.18,
-        "cumulativeRepayment": 27493.01,
+        "repaymentRolling": 1253.71,
+        "cumulativeRepayment": 27513.26,
         "cumulativeDrawStores": 3924,
         "mtDrawStores": 155,
         "mtRepayment": 1195.47,
@@ -3302,8 +3486,8 @@ window.dashboardData = {
         "drawStores": 244,
         "drawRolling": 196.29,
         "repayment": 1919.76,
-        "repaymentRolling": 1358.23,
-        "cumulativeRepayment": 29412.77,
+        "repaymentRolling": 1358.91,
+        "cumulativeRepayment": 29433.02,
         "cumulativeDrawStores": 4168,
         "mtDrawStores": 154,
         "mtRepayment": 1449.45,
@@ -3318,8 +3502,8 @@ window.dashboardData = {
         "drawStores": 233,
         "drawRolling": 207.57,
         "repayment": 1670.74,
-        "repaymentRolling": 1433.05,
-        "cumulativeRepayment": 31083.51,
+        "repaymentRolling": 1433.35,
+        "cumulativeRepayment": 31103.76,
         "cumulativeDrawStores": 4401,
         "mtDrawStores": 145,
         "mtRepayment": 1179.13,
@@ -3335,7 +3519,7 @@ window.dashboardData = {
         "drawRolling": 222.0,
         "repayment": 1756.64,
         "repaymentRolling": 1563.73,
-        "cumulativeRepayment": 32840.15,
+        "cumulativeRepayment": 32860.4,
         "cumulativeDrawStores": 4653,
         "mtDrawStores": 155,
         "mtRepayment": 1230.93,
@@ -3351,7 +3535,7 @@ window.dashboardData = {
         "drawRolling": 233.86,
         "repayment": 1802.09,
         "repaymentRolling": 1649.69,
-        "cumulativeRepayment": 34642.24,
+        "cumulativeRepayment": 34662.49,
         "cumulativeDrawStores": 4911,
         "mtDrawStores": 162,
         "mtRepayment": 1178.79,
@@ -3367,7 +3551,7 @@ window.dashboardData = {
         "drawRolling": 244.86,
         "repayment": 1926.24,
         "repaymentRolling": 1739.8,
-        "cumulativeRepayment": 36568.48,
+        "cumulativeRepayment": 36588.73,
         "cumulativeDrawStores": 5182,
         "mtDrawStores": 163,
         "mtRepayment": 1350.48,
@@ -3381,14 +3565,14 @@ window.dashboardData = {
         "storeBase": 630,
         "drawStores": 295,
         "drawRolling": 256.86,
-        "repayment": 2129.12,
-        "repaymentRolling": 1852.88,
-        "cumulativeRepayment": 38697.6,
+        "repayment": 2129.51,
+        "repaymentRolling": 1852.93,
+        "cumulativeRepayment": 38718.24,
         "cumulativeDrawStores": 5477,
         "mtDrawStores": 182,
         "mtRepayment": 1487.9,
         "elmDrawStores": 113,
-        "elmRepayment": 641.22
+        "elmRepayment": 641.61
       },
       {
         "date": "2026-04-18",
@@ -3397,14 +3581,14 @@ window.dashboardData = {
         "storeBase": 633,
         "drawStores": 287,
         "drawRolling": 262.86,
-        "repayment": 2135.0,
-        "repaymentRolling": 1905.66,
-        "cumulativeRepayment": 40832.6,
+        "repayment": 2138.37,
+        "repaymentRolling": 1906.19,
+        "cumulativeRepayment": 40856.61,
         "cumulativeDrawStores": 5764,
         "mtDrawStores": 180,
         "mtRepayment": 1534.57,
         "elmDrawStores": 107,
-        "elmRepayment": 600.43
+        "elmRepayment": 603.8
       },
       {
         "date": "2026-04-19",
@@ -3413,14 +3597,14 @@ window.dashboardData = {
         "storeBase": 637,
         "drawStores": 284,
         "drawRolling": 268.57,
-        "repayment": 2295.76,
-        "repaymentRolling": 1959.37,
-        "cumulativeRepayment": 43128.36,
+        "repayment": 2297.39,
+        "repaymentRolling": 1960.14,
+        "cumulativeRepayment": 43154.0,
         "cumulativeDrawStores": 6048,
         "mtDrawStores": 171,
         "mtRepayment": 1599.01,
         "elmDrawStores": 113,
-        "elmRepayment": 696.75
+        "elmRepayment": 698.38
       },
       {
         "date": "2026-04-20",
@@ -3429,14 +3613,14 @@ window.dashboardData = {
         "storeBase": 650,
         "drawStores": 267,
         "drawRolling": 273.43,
-        "repayment": 1953.94,
-        "repaymentRolling": 1999.83,
-        "cumulativeRepayment": 45082.3,
+        "repayment": 1956.98,
+        "repaymentRolling": 2001.03,
+        "cumulativeRepayment": 45110.98,
         "cumulativeDrawStores": 6315,
         "mtDrawStores": 167,
         "mtRepayment": 1287.08,
         "elmDrawStores": 100,
-        "elmRepayment": 666.86
+        "elmRepayment": 669.9
       },
       {
         "date": "2026-04-21",
@@ -3445,30 +3629,94 @@ window.dashboardData = {
         "storeBase": 679,
         "drawStores": 288,
         "drawRolling": 278.57,
-        "repayment": 2192.25,
-        "repaymentRolling": 2062.06,
-        "cumulativeRepayment": 47274.55,
+        "repayment": 2192.79,
+        "repaymentRolling": 2063.34,
+        "cumulativeRepayment": 47303.77,
         "cumulativeDrawStores": 6603,
         "mtDrawStores": 176,
         "mtRepayment": 1482.57,
         "elmDrawStores": 112,
-        "elmRepayment": 709.68
+        "elmRepayment": 710.22
       },
       {
         "date": "2026-04-22",
         "label": "04/22",
         "newStores": 15,
         "storeBase": 694,
-        "drawStores": 114,
-        "drawRolling": 258.0,
-        "repayment": 617.15,
-        "repaymentRolling": 1892.78,
-        "cumulativeRepayment": 47891.7,
-        "cumulativeDrawStores": 6717,
+        "drawStores": 299,
+        "drawRolling": 284.43,
+        "repayment": 2096.49,
+        "repaymentRolling": 2105.4,
+        "cumulativeRepayment": 49400.26,
+        "cumulativeDrawStores": 6902,
+        "mtDrawStores": 185,
+        "mtRepayment": 1441.58,
+        "elmDrawStores": 114,
+        "elmRepayment": 654.91
+      },
+      {
+        "date": "2026-04-23",
+        "label": "04/23",
+        "newStores": 15,
+        "storeBase": 709,
+        "drawStores": 303,
+        "drawRolling": 289.0,
+        "repayment": 2158.96,
+        "repaymentRolling": 2138.64,
+        "cumulativeRepayment": 51559.22,
+        "cumulativeDrawStores": 7205,
+        "mtDrawStores": 177,
+        "mtRepayment": 1370.68,
+        "elmDrawStores": 126,
+        "elmRepayment": 788.28
+      },
+      {
+        "date": "2026-04-24",
+        "label": "04/24",
+        "newStores": 27,
+        "storeBase": 736,
+        "drawStores": 313,
+        "drawRolling": 291.57,
+        "repayment": 2116.23,
+        "repaymentRolling": 2136.74,
+        "cumulativeRepayment": 53675.45,
+        "cumulativeDrawStores": 7518,
+        "mtDrawStores": 188,
+        "mtRepayment": 1379.78,
+        "elmDrawStores": 125,
+        "elmRepayment": 736.45
+      },
+      {
+        "date": "2026-04-25",
+        "label": "04/25",
+        "newStores": 22,
+        "storeBase": 758,
+        "drawStores": 321,
+        "drawRolling": 296.43,
+        "repayment": 2403.32,
+        "repaymentRolling": 2174.59,
+        "cumulativeRepayment": 56078.77,
+        "cumulativeDrawStores": 7839,
+        "mtDrawStores": 191,
+        "mtRepayment": 1655.65,
+        "elmDrawStores": 130,
+        "elmRepayment": 747.67
+      },
+      {
+        "date": "2026-04-26",
+        "label": "04/26",
+        "newStores": 12,
+        "storeBase": 770,
+        "drawStores": 141,
+        "drawRolling": 276.0,
+        "repayment": 817.05,
+        "repaymentRolling": 1963.12,
+        "cumulativeRepayment": 56895.82,
+        "cumulativeDrawStores": 7980,
         "mtDrawStores": 0,
         "mtRepayment": 0.0,
-        "elmDrawStores": 114,
-        "elmRepayment": 617.15
+        "elmDrawStores": 141,
+        "elmRepayment": 817.05
       }
     ],
     "legacy": [
@@ -4309,16 +4557,80 @@ window.dashboardData = {
         "label": "04/22",
         "newStores": null,
         "storeBase": 2578,
-        "drawStores": 40,
-        "drawRolling": 141.43,
-        "repayment": 288.83,
-        "repaymentRolling": 1214.68,
-        "cumulativeRepayment": 93903.06,
-        "cumulativeDrawStores": 10681,
+        "drawStores": 147,
+        "drawRolling": 156.71,
+        "repayment": 1167.89,
+        "repaymentRolling": 1340.26,
+        "cumulativeRepayment": 94782.12,
+        "cumulativeDrawStores": 10788,
+        "mtDrawStores": 107,
+        "mtRepayment": 834.17,
+        "elmDrawStores": 40,
+        "elmRepayment": 333.72
+      },
+      {
+        "date": "2026-04-23",
+        "label": "04/23",
+        "newStores": null,
+        "storeBase": 2578,
+        "drawStores": 148,
+        "drawRolling": 153.57,
+        "repayment": 1110.33,
+        "repaymentRolling": 1309.53,
+        "cumulativeRepayment": 95892.45,
+        "cumulativeDrawStores": 10936,
+        "mtDrawStores": 108,
+        "mtRepayment": 810.76,
+        "elmDrawStores": 40,
+        "elmRepayment": 299.57
+      },
+      {
+        "date": "2026-04-24",
+        "label": "04/24",
+        "newStores": null,
+        "storeBase": 2578,
+        "drawStores": 149,
+        "drawRolling": 152.43,
+        "repayment": 1285.28,
+        "repaymentRolling": 1307.53,
+        "cumulativeRepayment": 97177.73,
+        "cumulativeDrawStores": 11085,
+        "mtDrawStores": 102,
+        "mtRepayment": 776.93,
+        "elmDrawStores": 47,
+        "elmRepayment": 508.35
+      },
+      {
+        "date": "2026-04-25",
+        "label": "04/25",
+        "newStores": null,
+        "storeBase": 2578,
+        "drawStores": 156,
+        "drawRolling": 152.14,
+        "repayment": 1151.97,
+        "repaymentRolling": 1268.68,
+        "cumulativeRepayment": 98329.7,
+        "cumulativeDrawStores": 11241,
+        "mtDrawStores": 107,
+        "mtRepayment": 787.33,
+        "elmDrawStores": 49,
+        "elmRepayment": 364.64
+      },
+      {
+        "date": "2026-04-26",
+        "label": "04/26",
+        "newStores": null,
+        "storeBase": 2578,
+        "drawStores": 46,
+        "drawRolling": 137.29,
+        "repayment": 373.76,
+        "repaymentRolling": 1090.64,
+        "cumulativeRepayment": 98703.46,
+        "cumulativeDrawStores": 11287,
         "mtDrawStores": 0,
         "mtRepayment": 0.0,
-        "elmDrawStores": 40,
-        "elmRepayment": 288.83
+        "elmDrawStores": 46,
+        "elmRepayment": 373.76
       }
     ]
   },
@@ -4339,29 +4651,29 @@ window.dashboardData = {
   "insights": [
     {
       "title": "遗留贡献占比",
-      "value": "66.2%",
-      "metric": "回款 ¥93,903.06 / 抽点 10,681 次",
+      "value": "63.4%",
+      "metric": "回款 ¥98,703.46 / 抽点 11,287 次",
       "body": "去年遗留店铺仍是当前总盘回款主力，说明存量盘稳定性直接决定整体结果。",
       "tone": "accent"
     },
     {
       "title": "新开爬坡速度",
-      "value": "+4157.3%",
-      "metric": "¥44.46 → ¥1,892.78",
+      "value": "+4315.5%",
+      "metric": "¥44.46 → ¥1,963.12",
       "body": "今年新开单回款从前 7 天的低基数快速爬升到最近 7 天的四位数水平，新增门店正在逐步兑现。",
       "tone": "blue"
     },
     {
       "title": "总盘峰值分离",
-      "value": "04/17",
-      "metric": "抽点峰值 452 家；金额峰值 04/19 ¥3,915.78",
+      "value": "04/25",
+      "metric": "抽点峰值 477 家；金额峰值 04/19 ¥3,917.41",
       "body": "合并后抽点峰值和金额峰值不在同一天，说明门店活跃度与当日金额兑现并非完全同步，需要分别观察。",
       "tone": "gold"
     },
     {
       "title": "总盘近7日走势",
-      "value": "+61.3%",
-      "metric": "247.57 家/日 → 399.43 家/日",
+      "value": "+66.9%",
+      "metric": "247.57 家/日 → 413.29 家/日",
       "body": "总抽点店铺数近 7 日均值仍在抬升，但金额增速已低于新开单单独口径，意味着总盘增量更多来自规模扩张而非单店效率提升。",
       "tone": "good"
     }
@@ -4376,7 +4688,7 @@ window.dashboardData = {
       {
         "source": "今年新开单",
         "label": "开单店铺范围",
-        "text": "统计 2026-03-01 到 2026-04-22 之间开单的全部店铺。"
+        "text": "统计 2026-03-01 到 2026-04-26 之间开单的全部店铺。"
       },
       {
         "source": "今年新开单",
@@ -4413,7 +4725,7 @@ window.dashboardData = {
       {
         "source": "去年遗留",
         "label": "统计截止日期",
-        "text": "默认延长到最新抽点业务日期 2026-04-22。"
+        "text": "默认延长到最新抽点业务日期 2026-04-26。"
       },
       {
         "source": "去年遗留",
